@@ -84,36 +84,3 @@ names(which.max(Chicago[1,]))
 apply(Chicago,1,function(x) names(which.max(x)))
 sapply(Weather,function(y) apply(y,1,function(x) names(which.max(x)))) #cities with max of the properties in the list
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
